@@ -8,17 +8,17 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
       options: const FirebaseOptions(
-    apiKey: 'AIzaSyAyz1chiyoRaD-Lu74MWTva52_IYaUfxwo',
-    appId: '1:421456839274:android:f86d8acabbb49af501c013',
-    messagingSenderId: '421456839274',
-    projectId: 'loginbd-da00c',
-    authDomain: 'com.login.countertest',
-    storageBucket: 'loginbd-da00c.appspot.com',
+    apiKey: 'AIzaSyBO8GBPuXUO4rIcc9yw5YSywL6alvBdRSk',
+    appId: '1:271144720487:android:03233cd1799688d4a91cc2',
+    messagingSenderId: '271144720487',
+    projectId: 'face-login-8fb47',
+    authDomain: 'com.test.login',
+    storageBucket: 'face-login-8fb47.appspot.com',
   ));
 
   if (kIsWeb) {
     await FacebookAuth.i.webAndDesktopInitialize(
-      appId: "874664834433450",
+      appId: "941702434015984",
       cookie: true,
       xfbml: true,
       version: "v15.0",

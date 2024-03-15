@@ -7,7 +7,7 @@ final TextEditingController _emailController = TextEditingController();
 final TextEditingController _passwordController = TextEditingController();
 
 final GoogleSignIn _googleSignIn = GoogleSignIn(
-  clientId: '235029653016-v2eekuvqd7g6p9ps1kn02nnnpv3up5i0.apps.googleusercontent.com',
+  clientId: '412962165343-og5vhgeg5rickk8u2725elf7u4akdkar.apps.googleusercontent.com',
 );
 final FacebookAuth _facebookAuth = FacebookAuth.instance;
 
